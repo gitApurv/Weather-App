@@ -15,7 +15,7 @@ export default function CityForm({ setFetched, setWeatherData }) {
     }
 
     setLoading(true);
-    fetch(`http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}`)
+    fetch(`https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}`)
       .then((res) => res.json())
       .then((data) => {
         setLoading(false);
