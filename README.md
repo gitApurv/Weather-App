@@ -1,6 +1,6 @@
 # 🌤️ Weather Forecast App
 
-A simple and fast weather forecast app built with **Vite + React** that fetches real-time weather data based on the city entered by the user.
+A simple and fast weather app built with **Vite + React** that fetches real-time weather data based on the city entered by the user.
 
 ## 🚀 Features
 
